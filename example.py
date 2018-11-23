@@ -26,5 +26,5 @@ class Example(scrapy.Spider):
 			'title': title,
 			'authors': authors,
 			'dateline': dateline,
-			'abstract': abstract[1]
+			'abstract': abstract
 		}
